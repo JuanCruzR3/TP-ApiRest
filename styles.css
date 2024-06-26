@@ -4,6 +4,7 @@ body {
     color: #333;
     text-align: center;
     padding: 20px;
+    background: url(RYMimg.webp);
 }
 
 header {
@@ -27,14 +28,14 @@ button {
     padding: 10px 20px;
     margin: 5px;
     border: none;
-    background-color: #03a9f4;
-    color: white;
+    background-color: #ffeb3b;
+    color: #333;
     cursor: pointer;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #0288d1;
+    background-color: #ffeb3b;
 }
 
 #characters {
@@ -57,3 +58,4 @@ button:hover {
     max-width: 100%;
     border-radius: 10px;
 }
+
