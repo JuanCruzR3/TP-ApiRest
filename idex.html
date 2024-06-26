@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rick & Morty</h1>
+    </header>
+    <main>
+        <div class="buttons">
+            <button id="get-characters">Personajes</button>
+        </div>
+        <div class="filters">
+            <input type="text" id="name" placeholder="Nombre">
+            <input type="text" id="status" placeholder="Estado (alive, dead, unknown)">
+            <input type="text" id="species" placeholder="Especie">
+            <input type="text" id="type" placeholder="Tipo">
+            <input type="text" id="gender" placeholder="Género (female, male, genderless, unknown)">
+            <button id="filter-characters">Buscar</button>
+        </div>
+        <div id="characters"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
